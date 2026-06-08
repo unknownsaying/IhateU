@@ -1,0 +1,17 @@
+.color-strip {
+    display: flex;
+    gap: 1px;
+}
+
+.box {
+    width: 1px;
+    height: 1px;
+}
+
+.red     { background-color: red; }
+.orange  { background-color: orange; }
+.yellow  { background-color: yellow; }
+.green   { background-color: green; }
+.blue    { background-color: blue; }
+.indigo  { background-color: indigo; }
+.violet  { background-color: violet; }

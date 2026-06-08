@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraction: 248 / 369</title>
+    <style>
+        body {
+            font-family: system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: #f5f7fb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 28px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+            padding: 2rem 3rem;
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+
+        .fraction {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 3.5rem;
+            font-weight: 500;
+        }
+
+        .numerator {
+            padding-bottom: 0.1em;
+        }
+
+        .denominator {
+            padding-top: 0.1em;
+        }
+
+        .fraction-bar {
+            width: 100%;
+            height: 3px;
+            background-color: #1e293b;
+            margin: 4px 0;
+            border-radius: 2px;
+        }
+
+        /* Alternative inline fraction style */
+        .inline-fallback {
+            margin-top: 1.8rem;
+            font-size: 1.2rem;
+            color: #475569;
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 1.5rem;
+        }
+
+        .decimal {
+            font-size: 1.2rem;
+            background: #eef2ff;
+            display: inline-block;
+            padding: 0.3rem 1rem;
+            border-radius: 40px;
+            color: #1e3a8a;
+            margin-top: 1rem;
+            font-family: monospace;
+        }
+
+        .label {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #64748b;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <div class="label">division → fraction form</div>
+
+    <!-- Proper fraction with horizontal bar -->
+    <div class="fraction">
+        <span class="numerator">248</span>
+        <div class="fraction-bar"></div>
+        <span class="denominator">369</span>
+    </div>
+
+    <div class="decimal">
+        248 ÷ 369 ≈ 0.6721
+    </div>
+
+    <div class="inline-fallback">
+        <span style="font-family: monospace;">248/369</span> &nbsp;|&nbsp;
+        <span style="font-family: monospace;">248 : 369</span>
+    </div>
+</div>
+</body>
+</html>
